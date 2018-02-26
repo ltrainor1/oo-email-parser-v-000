@@ -13,3 +13,5 @@ def self.parse
   @emails = emails.split(", "||" ")
   emailArray.uniq
 end 
+
+end 
