@@ -9,3 +9,5 @@ def initialize(emails)
   emailArray = emails.split(", "||" ")
   emailArray.uniq
 end 
+
+end 
