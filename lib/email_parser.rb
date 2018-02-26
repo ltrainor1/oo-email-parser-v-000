@@ -10,4 +10,6 @@ def initialize(emails)
   emailArray.uniq
 end 
 
+def self.parse 
+  
 end 
