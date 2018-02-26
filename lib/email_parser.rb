@@ -10,7 +10,7 @@ def initialize(emails)
 end 
 
 def parse 
-  @emails = @emails.split(", ")
+  @emails = @emails.split(/[,\ ]{1,3}/)
   
   @emails = @emails.uniq
 end 
