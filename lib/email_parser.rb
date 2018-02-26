@@ -6,10 +6,10 @@
 Class EmailParser 
 
 def initialize(emails)
-  emailArray = emails.split(", "||" ")
-  emailArray.uniq
+  @emails = emails 
 end 
 
 def self.parse 
-  
+  @emails = emails.split(", "||" ")
+  emailArray.uniq
 end 
